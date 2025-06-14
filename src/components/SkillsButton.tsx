@@ -7,17 +7,24 @@ export const SkillsButton = () => {
 
   const hardSkills = [
     'HTML, CSS, JavaScript',
-    'Node.js, PHP',
-    'MySQL',
-    'Git y GitHub',
+    'PHP, MySQL',
+    'Git, GitHub',
+    'Control de Versiones',
     'Depuración y optimización'
   ];
 
   const softSkills = [
     'Adaptabilidad',
     'Trabajo en equipo',
+    'Resolución de problemas',
     'Gestión del tiempo',
     'Comunicación efectiva'
+  ];
+
+  const certifications = [
+    'Redactium: Redactor Recomendado',
+    'Santander Open Academy: Google IA',
+    'Santander Open Academy: Copilot'
   ];
 
   return (
@@ -54,7 +61,7 @@ export const SkillsButton = () => {
           </div>
 
           {/* Soft Skills */}
-          <div>
+          <div className="mb-4">
             <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
               <Lightbulb size={16} />
               Soft Skills
@@ -63,6 +70,21 @@ export const SkillsButton = () => {
               {softSkills.map((skill, index) => (
                 <li key={index} className="text-gray-300 text-sm">
                   • {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Certifications */}
+          <div>
+            <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
+              <FileText size={16} />
+              Certificaciones
+            </h4>
+            <ul className="space-y-1">
+              {certifications.map((cert, index) => (
+                <li key={index} className="text-gray-300 text-sm">
+                  • {cert}
                 </li>
               ))}
             </ul>

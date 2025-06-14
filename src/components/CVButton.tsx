@@ -8,9 +8,8 @@ export const CVButton = () => {
   return (
     <div className="relative">
       <a
-        href="#" // Usuario añadirá su enlace de CV aquí
-        target="_blank"
-        rel="noopener noreferrer"
+        href="/lovable-uploads/c579c7d9-cc40-4e32-9a06-001d9f45f785.png"
+        download="Fernando_Quintero_CV.png"
         className={`flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-lg font-medium transition-all duration-300 hover:shadow-lg ${
           isHovered ? 'scale-105' : ''
         }`}
