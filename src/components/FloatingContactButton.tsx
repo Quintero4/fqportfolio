@@ -21,13 +21,13 @@ export const FloatingContactButton = () => {
     {
       name: 'GitHub',
       icon: Github,
-      url: '#', // Usuario añadirá su enlace aquí
+      url: 'https://quintero4.github.io/portfolio/', // Enlace de GitHub del CV
       color: 'bg-gray-800'
     },
     {
       name: 'WhatsApp',
       icon: MessageCircle,
-      url: '#', // Usuario añadirá su número aquí
+      url: 'https://wa.me/34652337340', // Número de WhatsApp del CV
       color: 'bg-green-500'
     }
   ];

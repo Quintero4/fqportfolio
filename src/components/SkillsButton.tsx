@@ -1,15 +1,15 @@
 
 import React, { useState } from 'react';
-import { Code, Lightbulb } from 'lucide-react';
+import { Code, Lightbulb, FileText } from 'lucide-react';
 
 export const SkillsButton = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const hardSkills = [
     'HTML, CSS, JavaScript',
-    'PHP, MySQL',
+    'Node.js, PHP',
+    'MySQL',
     'Git, GitHub',
-    'Control de Versiones',
     'Depuración y optimización'
   ];
 
