@@ -34,13 +34,15 @@ const Index = () => {
         <div className="container mx-auto text-center">
           <div className="mb-8">
             {/* Personal photo */}
-            <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 shadow-2xl border-4 border-white/20">
-              <img 
-                src="/lovable-uploads/3a3939dc-1a9e-45cd-a9fb-d587afbbb2cd.png" 
-                alt="Fernando Quintero Gómez" 
-                className="w-full h-full object-cover"
-              />
-            </div>
+{/* Personal photo */}
+<div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 shadow-2xl">
+  <img 
+    src="img/Linkedin.jpg" 
+    alt="Fernando Quintero" 
+    className="w-full h-full object-cover"
+  />
+</div>
+
           </div>
           
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
