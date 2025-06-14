@@ -9,7 +9,7 @@ export const CVButton = () => {
     <div className="relative">
       <a
         href="/lovable-uploads/e7fd1436-4ec6-4257-bacc-42d1be4bcd6e.png"
-        download="Fernando_Quintero_CV.png"
+        download="CurriculumVitae_page-0001.png"
         className={`flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-lg font-medium transition-all duration-300 hover:shadow-lg ${
           isHovered ? 'scale-105' : ''
         }`}
